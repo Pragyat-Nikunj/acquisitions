@@ -101,4 +101,3 @@ npm test
 - **Dockerfile**: Multi-stage for dev/prod
 - **docker-compose.prod.yml**: Production deployment
 - **docker-build-and-push.yml**: CI/CD workflow for Docker Hub
-
