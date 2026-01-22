@@ -194,3 +194,6 @@
 {"level":"info","message":"::1 - - [22/Jan/2026:17:44:20 +0000] \"GET /api/users/11 HTTP/1.1\" 200 189 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
 {"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [22/Jan/2026:17:44:54 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Jan/2026:18:18:12 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Jan/2026:18:18:12 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Jan/2026:18:18:12 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
